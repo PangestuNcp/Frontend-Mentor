@@ -1,0 +1,40 @@
+@media screen and (max-width: 1070px) {
+    main{
+        max-width: 85%;
+    }
+}
+@media screen and (max-width: 850px) {
+    main{
+        max-width: 60%;
+        grid-template-columns: 1fr;
+        margin: 4em auto;
+    }
+    main .section__left{
+        max-width: 90%;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 2em;
+    }
+    main .section__left h1{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 625px) {
+    main{
+        max-width: 80%;
+    }
+    main .section__left h1{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 510px) {
+    main{
+        max-width: 90%;
+    }
+    main .section__left h1{
+        font-size: 1.8rem;
+    }
+    main .section__right .card{
+        padding: 2em 1.5em;
+    }
+}

@@ -1,0 +1,41 @@
+@media screen and (max-width: 1050px) {
+    .card{
+        max-width: 60%;
+    }
+}
+@media screen and (max-width: 930px) {
+    .card{
+        max-width: 70%;
+    }
+    .section__right .description{
+        max-width: 90%;
+    }
+}
+@media screen and (max-width: 750px) {
+    .card{
+        max-width: 80%;
+    }
+}
+@media screen and (max-width: 650px) {
+    .card{
+        margin: 3em 2em 0;
+    }
+    section{
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width: 410px) {
+    header .title__heading{
+        font-size: 1.5rem;
+    }
+    .sub__heading{
+        font-size: 1rem;
+    }
+    p{
+        font-size: 14px;
+    }
+    .section__left span{
+        font-size: 1.5rem;
+        /* margin-right: .5em; */
+    }
+}

@@ -1,0 +1,21 @@
+@media screen and (max-width:1440px) {
+    main{
+        background-image: url("/images/pattern-background-desktop.svg");
+        background-repeat: no-repeat;
+    }
+}
+@media screen and (max-width:1167px){.card{width: 40%;}}
+@media screen and (max-width:885px){
+    main{
+        background-image: url("/images/pattern-background-desktop.svg");
+    }
+    .card{width: 50%;}
+}
+@media screen and (max-width:700px){ .card{width: 60%;} .card__body{padding: 1em 1.5em;}}
+@media screen and (max-width:530px){.card{width: 80%;}}
+@media screen and (max-width:390px){
+    .card{width: 90%;} 
+    .card__body{padding: .5em 1em;}
+    .card__body .card__body-Description p{width: 100%;}
+
+}

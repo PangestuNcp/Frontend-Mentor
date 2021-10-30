@@ -1,0 +1,46 @@
+@media screen and (max-width: 1080px) {
+    main form{
+        max-width: 70%;
+    }
+}
+@media screen and (max-width: 770px){
+    .container{
+        max-width: 90%;
+    }
+    header .title__header h1{
+        font-size: 2rem;
+    }
+    main .form__title{
+        font-size: 17px;
+    }
+    main form{
+        max-width: 80%;
+    }
+    footer .contact a{
+        width: 30px;
+        height: 34px;
+    }
+    footer .contact a i{
+        font-size: 18px; 
+    }
+}
+@media screen and (max-width: 525px) {
+    main form{
+        display: flex;
+        flex-direction: column;
+    }
+    main form input{
+        width: 100%;
+    }
+    main form button{
+        width: 100%;
+        margin-top: 30px;
+    }
+    main .form .text__error{
+        position: relative;
+        top: -77px;
+        font-size: 12px;
+        margin-left: 0;
+        text-align: center;
+    }
+}

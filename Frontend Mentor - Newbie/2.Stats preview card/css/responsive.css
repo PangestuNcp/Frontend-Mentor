@@ -1,0 +1,59 @@
+@media screen and (max-width: 875px) {
+    body{
+        font-size: 14px;
+    }
+    
+}
+@media screen and (max-width: 765px) {
+    .card__description{
+        margin: 2em auto;
+        margin-left: 2em;
+    }
+    .card__description .description{
+        padding-bottom: 2em;
+    }
+}
+@media screen and (max-width: 680px) {
+    .container{
+        max-width: 400px;
+    }
+    .card{
+        grid-template-columns: 1fr;
+        grid-template: "one"
+                       "two";
+    }   
+    .card__image{
+        grid-area: one;
+    }
+    .card__description{
+        grid-area: two;
+        margin: 3em auto;
+        text-align: center;
+    }
+    .card__description h1,.description{
+        margin: auto;
+    }
+    .card__description .stats{
+        margin: 1em auto 0;
+        text-align: start;
+    }
+    .attribution{
+        position: relative;
+    }
+}
+@media screen and (max-width: 358px) {
+    .card__description{
+        margin-bottom: 2em;
+    }
+    .card__description .stats{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 0;
+    }
+    .card__description .stats .item{
+        padding-bottom: 1.5em;
+    }
+    .card__description .stats p{
+        padding: .1em 0;
+    }
+}

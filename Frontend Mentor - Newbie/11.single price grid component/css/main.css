@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(204, 43%, 93%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+.card{
+    max-width: 50%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* =============== Header =============== */
+header{
+    background-color: #fff;
+    padding: 2em;
+}
+header .title__heading{
+    color: hsl(179, 62%, 43%);
+}
+header h3{
+    color: hsl(71, 73%, 54%);
+    padding: 1em 0 .8em;
+}
+header .description{
+    color: hsl(218, 22%, 67%);
+    line-height: 23px;
+    font-weight: 400;
+}
+
+section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: #fff;
+}
+
+/* =============== Left =============== */
+.section__left{
+    padding: 2em;
+    background-color: hsl(179, 62%, 43%);
+}
+.section__left .price{
+    color: hsl(204, 43%, 93%);
+    padding: .8em 0 .5em;
+}
+.section__left span{
+    font-weight: 700;
+    font-size: 2rem;
+    color: #fff;
+    margin-right: .2em;
+}
+.section__left button{
+    padding: 1.2em;
+    width: 100%;
+    margin-top: 2em;
+    font-weight: 700;
+    color: #fff;
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+/* =============== Right =============== */
+.section__right{
+    padding: 2em;
+    background-color: hsl(179, 53%, 49%);
+}
+.section__right .description{
+    padding-top: .8em;
+    max-width: 80%;
+}
+
+/* =============== Footer =============== */
+.attribution {
+    font-size: 11px; text-align: center;
+    position: relative;
+    bottom: -90px;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}

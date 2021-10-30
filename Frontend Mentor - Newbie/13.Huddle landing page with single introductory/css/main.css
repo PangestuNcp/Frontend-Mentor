@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    min-height: 100vh;
+    color: #fff;
+    background-image: url(/images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right -10px bottom 0;
+    background-color: hsl(257, 40%, 49%);
+    overflow: hidden;
+}
+.container{
+    max-width: 90%;
+    margin: auto;
+}
+/* ========== Header ========== */
+header{
+    margin: 2em auto 5em;
+}
+header img{
+    max-width: 150px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+/* ========== Hero Image ========== */
+main .section__left img{
+    max-width: 600px;
+}
+/* ========== Descriopion ========== */
+main .section__right{
+    max-width: 80%;
+    margin-left: 2.5em;
+    position: relative;
+}
+/* DDescriopion Content */
+main .section__right .content h1{
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin: 1em 0 0;
+    max-width: 80%;
+}
+main .section__right .content p{
+    margin: 1.9em 0 1.5em;
+    max-width: 90%;
+}
+main .section__right .content button{
+    padding: .9em 3em;
+    border-radius: 100px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: hsl(257, 40%, 49%);
+    font-weight: 600;
+    box-shadow: 0px 8px 5px rgba(0, 0, 0, 26%);
+    transition: .3s ease-in-out;
+}
+main .section__right .content button:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+}
+/* Descriopion Contact */
+main .section__right .contact{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+main .section__right .contact ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+main .section__right .contact a{
+    text-align: center;
+    display: block;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin: 0rem 1rem;
+    color: #fff;
+    transition: .3s ease-in-out;
+}
+main .section__right .contact a:hover{
+    border-color: hsl(300, 69%, 71%);
+    color: hsl(300, 69%, 71%);
+}
+main .section__right .contact ul li a i{
+    font-size: 15px;
+}
+
+/* ========== Footer ========== */
+footer .attribution {
+    font-size: 11px;
+    text-align: center;
+    position: relative;
+    top: 55px;
+}
+.attribution a {
+    color: #fff;
+}

@@ -1,0 +1,93 @@
+@media screen and (min-width:825px) {
+    .card::before {
+        content: "";
+        position: absolute;
+        width: 12em;
+        height: 12em;
+        background: none;
+        background-image: url("./images/illustration-box-desktop.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        left: .3rem;
+        top: 11rem;
+        transform: translateX(-55%);
+        z-index: 1;
+    }
+}
+@media screen and (max-width: 825px) {
+    body{
+        flex-direction: column;
+        max-width: 100%;
+        position: relative;
+    }
+    .card{
+        margin-top: 150px;
+        padding-top: 5em;
+        max-width: 500px;
+        grid-template-columns: 1.5fr;
+        grid-template-rows: 2fr;
+        gap: 0;
+        background: url("/images/bg-pattern-mobile.svg") no-repeat #fff;
+        background-position: top 10px center;
+        background-size: 17em;
+        position: relative;
+    }
+    .card::before {
+        content: "";
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        background-image: url("./images/illustration-woman-online-mobile.svg");
+        background-repeat: no-repeat;
+        top: -120px;
+        left: 15.6rem;
+    }
+    .item-image img{
+        margin-left: -0px;
+        margin-top: -100px;
+        width: 200px;
+        display: none;
+    }
+    .item-description h1{
+        text-align: center;
+    }
+    
+    .attribution {
+        text-align: center;
+        position: relative;
+        
+    }
+    
+
+}
+@media screen and (max-width: 824px) {
+    .card::before {
+        top: -100px;
+        left: 100px;
+    }
+    .card{
+        background-size: 16em;
+    }
+}
+@media screen and (max-width: 560px){
+    .card{
+        max-width: 450px;
+    }
+    .card::before {
+        top: -100px;
+        left: 40px;
+    }
+    
+}
+@media screen and (max-width: 393px){
+    .card::before {
+        top: -100px;
+        left: 15px;
+    }
+}
+@media screen and (max-width: 360px){
+    .card::before {
+        top: -100px;
+        left: 5px;
+    }
+}

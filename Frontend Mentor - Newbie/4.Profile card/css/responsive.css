@@ -1,0 +1,14 @@
+@media screen and (max-width: 1015px) {
+    body{
+        background-position: left -560px top -580px, right -560px bottom -580px;
+    }
+    .attribution{
+        max-width: 50%;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 680px) {
+    body{
+        background-position: left -660px top -680px, right -660px bottom -680px;
+    }
+}

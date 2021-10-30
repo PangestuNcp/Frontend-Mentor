@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+  <!-- css -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+<body>
+  <!-- header -->
+  <header>
+    <div class="logo">
+      <img src="/images/logo.svg" alt="Logo">
+    </div>
+  </header>
+
+  <!-- main -->
+  <main>
+    <!-- left -->
+    <div class="left">
+      <div class="hero__mobile">
+        <img src="/images/hero-mobile.jpg" alt="">
+      </div>
+      <h1><span class="light">We're</span><br>coming<br>soon</h1>
+      <p>Hello fellow shoppers! We're currently building our new fashion store. 
+        Add your email below to stay up-to-date with announcements and our launch deals.
+      </p>
+      <form action="#">
+        <div class="email">
+          <input onkeyup="check()" id="email" type="text" placeholder="Email Address">
+          <img src="/images/icon-error.svg" alt="icon" class="error">
+        </div>
+        
+        <button>
+          <img src="/images/icon-arrow.svg" alt="icon">
+        </button>
+      </form>
+      <p class="errorText">plase provide a valid emali</p>
+    </div>
+    <!-- right -->
+    <div class="right">
+      <img src="/images/hero-desktop.jpg" alt="image-hero">
+    </div>
+  </main>
+   
+  <!-- footer -->
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Pangestu Nurcahyo Putro</a>.
+    </p>
+  </footer>
+
+
+  <!-- Script -->
+  <script>
+    const email = document.querySelector("#email");
+    const error = document.querySelector(".error");
+    const btn = document.querySelector("button");
+    const errorText = document.querySelector(".errorText");
+    let regExp = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+
+    function check(){
+      if (email.value.match(regExp)){
+        email.style.borderColor = "hsl(0, 36%, 70%)";
+        error.style.display = "none";
+        errorText.style.display = "none";
+      }else if (email.value == ""){
+        email.style.borderColor = "hsl(0, 36%, 70%)";
+        error.style.display = "none";
+        errorText.style.display = "none";
+      }else{
+        email.style.borderColor = "hsl(0, 93%, 68%)";
+        error.style.display = "block";
+        errorText.style.display = "block";
+      }
+    };
+  </script>
+</body>
+</html>

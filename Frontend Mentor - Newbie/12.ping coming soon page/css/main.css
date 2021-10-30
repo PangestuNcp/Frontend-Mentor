@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 20px;
+}
+.container{
+    max-width: 70%;
+    margin: auto;
+}
+
+/* ========== Header ========== */
+header{
+    margin: 2em auto 0;
+}
+header .logo{
+    max-width: 70px;
+    margin: 0 auto 1em;
+}
+header .logo img{
+    max-width: 100%;
+}
+header .title__header h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+header .title__header span{
+    font-weight: 300;
+    color: hsl(0, 0%, 59%);
+}
+
+/* ========== Main ========== */
+main{
+    margin: 1.5em auto;
+}
+/* form title */
+main .form__title{
+    color: rgb(21, 31, 41);
+    font-size: 20px;
+    margin-bottom: .75em;
+}
+main form{
+    max-width: 50%;
+    margin: auto;
+}
+main form input{
+    width: 75%;
+    padding: 1em;
+    padding-left: 2em;
+    border-radius: 50px;
+    border: 1px solid hsl(223, 100%, 88%);
+    outline: none;
+}
+main form button{
+    width: 23%;
+    padding: 1em;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background-color: hsl(223, 87%, 63%);
+    color: #fff;
+    font-weight: 600;
+}
+main .form .text__error{
+    font-size: 13px;
+    color: hsl(354, 100%, 66%);
+    text-align: start;
+    margin: .7em 0;
+    margin-left: 2.1em;
+    visibility: hidden;
+}
+/* image hero */
+main .image__hero{
+    max-width: 850px;
+    margin: 1.5em auto 2em;
+}
+main .image__hero img{
+    max-width: 100%;
+}
+
+
+/* ========== Footer ========== */
+footer{
+    margin: 3em 0 1em;
+}
+footer .contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em auto;
+    list-style: none;
+}
+footer .contact a{
+    display: block;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    border: 1px solid hsl(223, 100%, 88%);
+    border-radius: 50%;
+    margin: 0rem 0.5rem;
+    color: hsl(223, 87%, 63%);
+    transition: .3s ease-in-out;
+}
+footer .contact a i{
+    font-size: 20px;
+}
+footer .contact a:hover{
+    background-color: hsl(223, 87%, 63%);
+    border-color: hsl(223, 87%, 63%);
+    color: #fff;
+}
+/* attribution */
+footer .attribution {
+    font-size: 11px; text-align: center;
+}
+footer .attribution a {
+    color: hsl(228, 45%, 44%);
+}

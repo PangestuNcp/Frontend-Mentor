@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p, span{
+    color: hsl(0, 0%, 59%);
+    font-weight: 500;
+}
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    color: hsl(229, 23%, 23%);
+    background-color: hsl(185, 75%, 39%);
+    background-image: url("/images/bg-pattern-top.svg") , url("/images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat;
+    background-position: left -460px top -480px, right -460px bottom -480px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.container{
+    max-width: 400px;
+    margin: auto;
+}
+.card{
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    margin: 2em;
+}
+
+/* image card */
+.card .image-card{
+    min-height: 140px;
+}
+.card .image-card img{
+    min-width: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+} /* end image card */
+
+/* information card */
+.card .information-card{
+    min-width: 100%;
+    text-align: center;
+}
+.card .information-card .profil-image{
+    position: relative;
+    margin-top: -50px;
+}
+.card .information-card .profil-image img{
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    padding: 8px;
+    background-color: #fff;
+}
+.card .information-card h1{
+    padding-top: .5em;
+}
+.card .information-card span{
+    margin-left: 10px;
+    font-size: 1.9rem;
+}
+.card .information-card .city{
+    padding: .5em 0 2em;
+}
+.card .information-card hr{
+    opacity: .5;
+}
+.card .information-card .stats{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em 2em 0;
+}
+.card .information-card .stats p{
+    padding-bottom: 2em;
+    letter-spacing: 1px;
+} /* end information card */
+
+/* attribution */
+.attribution{
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
