@@ -4,6 +4,7 @@
 
 <h4> The project I built :</h4>
 
+https://github.com/PangestuNcp/Frontend-Mentor/blob/main/Frontend%20Mentor%20-%20Newbie/1.Order%20summary%20card/design/desktop-design.jpg 
 ##### 1.[Order summary card](https://github.com/PangestuNcp/Frontend-Mentor/tree/main/Frontend%20Mentor%20-%20Newbie/1.Order%20summary%20card) 
 ##### 2.[Stats preview card](https://github.com/PangestuNcp/Frontend-Mentor/tree/main/Frontend%20Mentor%20-%20Newbie/2.Stats%20preview%20card)
 ##### 3.[Column preview card](https://github.com/PangestuNcp/Frontend-Mentor/tree/main/Frontend%20Mentor%20-%20Newbie/3.Column%20preview%20card)
