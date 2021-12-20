@@ -18,7 +18,8 @@
 <p align="center">This application/site was created as a submission to a <a href="https://www.frontendmentor.io/">Frontend Mentor</a> challenge.<br/> The <a href="https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA">challenge</a> was to build an application to complete the given user stories.</p>
 
 <div align="center" width="100%">
-  <img src="design/desktop-design.jpg" width="80%">
+  <img src="https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/c5mnesn5eknealmjz4w2.jpg" width="45%">
+  <img src="https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/i55lfaclccmhjx2zstme.jpg" width="45%">
 </div>
 
 

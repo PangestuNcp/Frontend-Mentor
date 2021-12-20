@@ -18,7 +18,8 @@
 <p align="center">This application/site was created as a submission to a <a href="https://www.frontendmentor.io/">Frontend Mentor</a> challenge.<br/> The <a href="https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam">challenge</a> was to build an application to complete the given user stories.</p>
 
 <div align="center" width="100%">
-  <img src="design/desktop-design.jpg" width="80%">
+  <img src="https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/y4zn9ukalew5zbnodrjs.jpg" width="45%">
+  <img src="https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/ird5rpi2iicascfikil8.jpg" width="45%">
 </div>
 
 
