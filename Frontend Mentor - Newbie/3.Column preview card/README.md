@@ -15,11 +15,10 @@
     </a>
   </h3>
 </div>
-<p align="center">This application/site was created as a submission to a <a href="https://www.frontendmentor.io/">Frontend Mentor</a> challenge. The <a href="https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-">challenge</a> was to build an application to complete the given user stories.</p>
+<p align="center">This application/site was created as a submission to a <a href="https://www.frontendmentor.io/">Frontend Mentor</a> challenge.<br/> The <a href="https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-">challenge</a> was to build an application to complete the given user stories.</p>
 
 <div align="center" width="100%">
-  <img src="design/desktop-design.jpg" width="60%">
-  <img src="design/mobile-design.jpg" width="19.80%">
+  <img src="design/desktop-design.jpg" width="80%">
 </div>
 
 
