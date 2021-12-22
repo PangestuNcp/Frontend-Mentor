@@ -8,21 +8,16 @@ body{
     font-family: 'Inter', sans-serif;
     color: #fff;
     background-color: hsl(233, 47%, 7%);
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-}
-.container{
-    max-width: 1020px;
-    margin: 0 auto;
 }
 .card{
     background-color: hsl(244, 38%, 16%);
     display: grid;
     grid-template-columns: 1fr 1fr;
+    justify-content: center;
     border-radius: 10px;
     overflow: hidden;
-    margin: 2em;
+    max-width: 900px;
+    margin: 7em auto;
 }
 
 /* card description */
@@ -46,6 +41,7 @@ body{
     width: 80%;
     display: flex;
     text-transform: uppercase;
+    justify-content: center;
 }
 .card__description .stats p{
     color: hsla(0, 0%, 100%, 0.6);
