@@ -2,7 +2,7 @@
 
 <div align="center">
   <h3>
-    <a href="#Link Demo">
+    <a href="https://social-proof-section-card.web.app">
       Demo
     </a>
     <span> | </span>
