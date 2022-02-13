@@ -2,7 +2,7 @@
 
 <div align="center">
   <h3>
-    <a href="#Link Demo">
+    <a href="https://base-apparel-coming-soon-page.web.app">
       Demo
     </a>
     <span> | </span>
