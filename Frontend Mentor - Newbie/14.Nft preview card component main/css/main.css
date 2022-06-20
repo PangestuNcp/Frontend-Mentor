@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+.card {
+  width: min(87.5%, 22rem);
+  padding: 1.09em;
+  margin: 5em auto;
+  border-radius: 10px;
+  background-color: hsl(216, 50%, 16%);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.5);
+}
+
+/* ========== Img Card ========== */
+.card .img__card {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+}
+.card .img__card img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.card .img__card .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background-color: hsl(178, 100%, 50%);
+  border-radius: 10px;
+}
+.card .img__card .view {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: none;
+}
+.img__card:hover .overlay {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.img__card:hover .overlay + .view {
+  display: block;
+}
+
+/* ========== Content Card ========== */
+.card .content__card {
+  margin: 1em 0 0.5em;
+  color: hsl(215, 51%, 70%);
+  font-weight: 400;
+}
+.card .content__card .heading {
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+}
+.card .content__card .description {
+  margin: 1em 0;
+  font-weight: 300;
+}
+/* Detail */
+.card .content__card .detail {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+.card .content__card .detail .item {
+  display: flex;
+  margin: 0 0 1em;
+}
+.card .content__card .detail .item img {
+  margin-right: 0.4em;
+}
+.card .content__card .detail .eth {
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+}
+
+/* ========== Profil Card ========== */
+.card .profil__card {
+  border-top: 1px solid hsl(215, 51%, 70%);
+  padding-top: 0.8em;
+  display: flex;
+  align-items: center;
+  color: hsl(215, 51%, 70%);
+  font-weight: 400;
+}
+.card .profil__card img {
+  max-width: 35px;
+  margin-right: 1em;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 100px;
+}
+.card .profil__card p span {
+  color: hsl(0, 0%, 100%);
+  margin-left: 0.1em;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  padding-bottom: 0.5em;
+}
+.attribution a {
+  color: hsl(178, 100%, 50%);
+}

@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Css */
+body {
+  background-color: hsl(216, 12%, 8%);
+  color: hsl(217, 12%, 63%);
+  font-family: "Overpass", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hidden {
+  display: none;
+}
+input[type="radio"] {
+  display: none;
+}
+h1 {
+  color: #fff;
+  font-weight: 700;
+}
+p {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.card {
+  background-color: hsl(213, 19%, 18%);
+  max-width: 30%;
+  padding: 1.5em;
+  margin: auto;
+  border-radius: 15px;
+}
+
+/* ========== Card Submit State ========== */
+/* ++++++++ Content ++++++++ */
+/* Icon */
+.card__submit__state .content .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  background-color: hsla(216, 12%, 54%, 0.2);
+  border-radius: 50%;
+}
+.card__submit__state .content .icon .img {
+  width: 40%;
+  height: 40%;
+}
+/* Description */
+.card__submit__state .content .description {
+  margin: 2em 0 1.5em;
+}
+.card__submit__state .content .description p {
+  margin-top: 0.5em;
+}
+
+/* ++++++++ Form ++++++++ */
+.card__submit__state .state__rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card__submit__state .state__rating label {
+  display: grid;
+  place-content: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  color: hsl(217, 12%, 63%);
+  background-color: hsla(216, 12%, 54%, 0.2);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+/* Hover */
+.card__submit__state .state__rating label:hover,
+.card__submit__state .state__rating label:visited {
+  background-color: hsl(217, 12%, 63%);
+  color: #fff;
+}
+/* Acitve */
+.card__submit__state .state__rating input:checked + label {
+  background-color: hsl(25, 97%, 53%);
+  color: #fff;
+  font-weight: 700;
+}
+
+/* ++++++++ Button ++++++++ */
+button {
+  margin-top: 2em;
+  width: 100%;
+  padding: 0.8em 0 0.8em;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+  background-color: hsl(25, 97%, 53%);
+}
+button:hover {
+  background-color: #fff;
+  color: hsl(25, 97%, 53%);
+  font-weight: 700;
+}
+
+/* ========== Card Thank State ========== */
+.card__thank__state {
+  text-align: center;
+  padding-top: 1.5em;
+}
+.card__thank__state img {
+  max-width: 180px;
+}
+.card__thank__state .give__state {
+  font-size: 14px;
+  max-width: 200px;
+  padding: 0.4em;
+  margin: 0.5em auto 1.5em;
+  border-radius: 20px;
+  color: hsl(25, 97%, 53%);
+  background-color: hsla(216, 12%, 54%, 0.2);
+}
+.card__thank__state .description p {
+  max-width: 95%;
+  margin: 0.5em auto;
+}
+
+/* Footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
