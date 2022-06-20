@@ -18,8 +18,8 @@
 <p align="center">This application/site was created as a submission to a <a href="https://www.frontendmentor.io/">Frontend Mentor</a> challenge.<br/> The challenge was to build an application to complete the given user stories.</p>
 
 <div align="center" width="100%">
-  <img src="https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/m8aueljlhfwzve7zxpy7.jpg" width="45%">
-  <img src="https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/c7mkk5qtwdx23srnjzus.jpg" width="45%">
+  <img src="https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/dm3s8oqtz0mwcaygqjhy.jpg" width="45%">
+  <img src="https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/azuwlqhmt3ty3h0cfnnr.jpg" width="45%">
 </div>
 
 #### Challenge :
