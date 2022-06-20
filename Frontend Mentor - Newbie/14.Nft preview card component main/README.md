@@ -18,8 +18,8 @@
 <p align="center">This application/site was created as a submission to a <a href="https://www.frontendmentor.io/">Frontend Mentor</a> challenge.<br/> The challenge was to build an application to complete the given user stories.</p>
 
 <div align="center" width="100%">
-  <img src="https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/m8aueljlhfwzve7zxpy7.jpg" width="45%">
-  <img src="https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/c7mkk5qtwdx23srnjzus.jpg" width="45%">
+  <img src="https://github.com/PangestuNcp/Frontend-Mentor/blob/main/Frontend%20Mentor%20-%20Newbie/14.Nft%20preview%20card%20component%20main/design/desktop-design.jpg" width="45%">
+  <img src="https://github.com/PangestuNcp/Frontend-Mentor/blob/main/Frontend%20Mentor%20-%20Newbie/14.Nft%20preview%20card%20component%20main/design/desktop-design.jpg" width="45%">
 </div>
 
 #### Challenge :
