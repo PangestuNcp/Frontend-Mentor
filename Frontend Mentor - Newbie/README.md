@@ -17,3 +17,6 @@
 - 11.[Single price grid component](https://github.com/PangestuNcp/Frontend-Mentor/tree/main/Frontend%20Mentor%20-%20Newbie/11.single%20price%20grid%20component)
 - 12.[Ping coming soon page](https://github.com/PangestuNcp/Frontend-Mentor/tree/main/Frontend%20Mentor%20-%20Newbie/12.ping%20coming%20soon%20page)
 - 13.[Huddle landing page with single introductory](https://github.com/PangestuNcp/Frontend-Mentor/tree/main/Frontend%20Mentor%20-%20Newbie/13.Huddle%20landing%20page%20with%20single%20introductory)
+- 14.[NFT preview card component](https://github.com/PangestuNcp/Frontend-Mentor/tree/main/Frontend%20Mentor%20-%20Newbie/14.Nft%20preview%20card%20component%20main)
+- 15.[Qr code component main](https://github.com/PangestuNcp/Frontend-Mentor/tree/main/Frontend%20Mentor%20-%20Newbie/15.Qr%20code%20component%20main)
+- 16.[Interactive rating component main](https://github.com/PangestuNcp/Frontend-Mentor/tree/main/Frontend%20Mentor%20-%20Newbie/16.Interactive%20rating%20component%20main)
