@@ -2,7 +2,7 @@
 
 <div align="center">
   <h3>
-    <a href="#Link Demo">
+    <a href="https://qr-code-main-component.web.app">
       Demo
     </a>
     <span> | </span>
