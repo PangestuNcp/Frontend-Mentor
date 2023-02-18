@@ -4,7 +4,7 @@
 
 <h4> The project I built :</h4>
 
-- 1.[Order summary card](https://github.com/PangestuNcp/Frontend-Mentor/tree/main/Frontend%20Mentor%20-%20Newbie/1.Order%20summary%20card) 
+- 1.[Order summary card](https://github.com/PangestuNcp/Frontend-Mentor/tree/main/Frontend%20Mentor%20-%20Newbie/1.Order%20summary%20card)
 - 2.[Stats preview card](https://github.com/PangestuNcp/Frontend-Mentor/tree/main/Frontend%20Mentor%20-%20Newbie/2.Stats%20preview%20card)
 - 3.[Column preview card](https://github.com/PangestuNcp/Frontend-Mentor/tree/main/Frontend%20Mentor%20-%20Newbie/3.Column%20preview%20card)
 - 4.[Profile card](https://github.com/PangestuNcp/Frontend-Mentor/tree/main/Frontend%20Mentor%20-%20Newbie/4.Profile%20card)
@@ -20,3 +20,4 @@
 - 14.[NFT preview card component](https://github.com/PangestuNcp/Frontend-Mentor/tree/main/Frontend%20Mentor%20-%20Newbie/14.Nft%20preview%20card%20component%20main)
 - 15.[Qr code component main](https://github.com/PangestuNcp/Frontend-Mentor/tree/main/Frontend%20Mentor%20-%20Newbie/15.Qr%20code%20component%20main)
 - 16.[Interactive rating component main](https://github.com/PangestuNcp/Frontend-Mentor/tree/main/Frontend%20Mentor%20-%20Newbie/16.Interactive%20rating%20component%20main)
+- 17.[Product preview card](https://github.com/PangestuNcp/Frontend-Mentor/tree/main/Frontend%20Mentor%20-%20Newbie/17.Product%20preview%20card)

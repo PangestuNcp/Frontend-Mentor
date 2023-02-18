@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(30, 38%, 92%);
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: hsl(228, 12%, 48%);
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main__card {
+  max-width: 600px;
+  max-height: 400px;
+  display: grid;
+  grid-template-columns: 1fr 50%;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* =============== Card Img =============== */
+.main__card .card__img img {
+  max-width: 100%;
+}
+
+/* =============== Card Description =============== */
+.main__card .card__description {
+  padding: 2.3em;
+}
+/* categori */
+.main__card .card__description .categori {
+  letter-spacing: 0.5em;
+}
+/* description heading / h1 */
+.main__card .card__description .description__heading {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  color: hsl(0, 0%, 0%);
+  max-width: 80%;
+  padding: 0.5em 0 0.8em;
+  line-height: 1;
+}
+/* description conten / p */
+.main__card .card__description .categori .description__conten {
+  color: hsl(228, 12%, 48%);
+}
+
+/* description price */
+.main__card .card__description .description__price {
+  margin: 1em 0;
+  font-family: "Fraunces", serif;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  color: hsl(158, 36%, 37%);
+}
+.main__card .card__description .description__price p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  text-decoration: line-through;
+  margin-left: 1em;
+  color: hsl(228, 12%, 48%);
+}
+
+/* button */
+.card__description button {
+  text-align: center;
+  width: 100%;
+  padding: 1em;
+  border-radius: 10px;
+  border: none;
+  background-color: hsl(158, 36%, 37%);
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+button img {
+  margin-right: 0.8em;
+}
+
+/* =============== footer ===============*/
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* ========================================== */
+/* =============== Responsive =============== */
+@media screen and (max-width: 650px) {
+  .main__card {
+    max-width: 560px;
+  }
+  .main__card .card__description {
+    padding: 2em 1.5em;
+  }
+  .main__card .card__description .description__heading {
+    padding: 0.8em 0;
+  }
+  .main__card .card__description .description__price {
+    font-size: 1.2rem;
+  }
+  .main__card .card__description button {
+    padding: 0.8em;
+  }
+}
+@media screen and (max-width: 570px) {
+  body {
+    font-size: 12px;
+  }
+  main {
+    height: auto;
+    padding: 2em 0;
+  }
+  .main__card {
+    max-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    max-height: 650px;
+  }
+  .main__card .card__img {
+    max-height: 350px;
+    overflow: hidden;
+  }
+  .main__card .card__description {
+    padding: 1.5em 2em;
+  }
+  .main__card .card__description .description__heading {
+    padding: 0.4em 0;
+  }
+  .main__card .card__description .description__conten {
+    max-width: 80%;
+    padding: 0.3em 0;
+  }
+}
+@media screen and (max-width: 375px) {
+  .main__card {
+    max-width: 300px;
+  }
+  .main__card .card__description .description__conten {
+    max-width: 100%;
+  }
+}
