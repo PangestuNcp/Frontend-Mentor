@@ -2,7 +2,7 @@
 
 <div align="center">
   <h3>
-    <a href="product-preview-main.netlify.app">
+    <a href="https://product-preview-main.netlify.app/">
       Demo
     </a>
     <span> | </span>
