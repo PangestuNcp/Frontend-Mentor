@@ -20,4 +20,4 @@
 - 14.[NFT preview card component](https://github.com/PangestuNcp/Frontend-Mentor/tree/main/Frontend%20Mentor%20-%20Newbie/14.Nft%20preview%20card%20component%20main)
 - 15.[Qr code component main](https://github.com/PangestuNcp/Frontend-Mentor/tree/main/Frontend%20Mentor%20-%20Newbie/15.Qr%20code%20component%20main)
 - 16.[Interactive rating component main](https://github.com/PangestuNcp/Frontend-Mentor/tree/main/Frontend%20Mentor%20-%20Newbie/16.Interactive%20rating%20component%20main)
-- 17.[Product preview card](https://github.com/PangestuNcp/Frontend-Mentor/tree/main/Frontend%20Mentor%20-%20Newbie/17.Product%20preview%20card)
+- 17.[Product preview card](https://github.com/PangestuNcp/Frontend-Mentor/blob/main/Frontend%20Mentor%20-%20Newbie/17.Product%20preview%20card%20component%20main)
