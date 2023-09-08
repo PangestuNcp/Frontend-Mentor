@@ -4,4 +4,5 @@
 
 <h4> Challenge Paths :</h4>
 
-- [Frontend Mentor | NEWBIE](https://github.com/PangestuNcp/Frontend-Mentor/tree/main/Frontend%20Mentor%20-%20Newbie)
+- [Frontend Mentor | NEWBIE](https://github.com/PangestuNcp/Frontend-Mentor/tree/main/Newbie)
+- [Frontend Mentor | JUNIOR](https://github.com/PangestuNcp/Frontend-Mentor/tree/main/Junior)
